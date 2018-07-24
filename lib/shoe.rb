@@ -11,19 +11,19 @@ class Shoe
   end
   
   def color=(color)
-    @color = color
+    @color = colorsize
   end
   
   def color
     @color
   end
   
-  def page_count=(page_count)
-    @page_count = page_count
+  def size=(size)
+    @size = size
   end
   
-  def page_count
-    @page_count
+  def size
+    @size
   end
   
    def genre=(genre)
