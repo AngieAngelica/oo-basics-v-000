@@ -2,20 +2,20 @@ class Shoe
   
   class Book
   
-  def initializ
-    @title = title
+  def initialize=(brand)
+    @brand = brand
   end
   
-  def title
-    @title
+  def brand
+    @brand
   end
   
-  def author=(author)
-    @author = author
+  def color=(color)
+    @color = color
   end
   
-  def author
-    @author
+  def color
+    @color
   end
   
   def page_count=(page_count)
